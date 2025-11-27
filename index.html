@@ -4,113 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trijit | Official Website</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
-    }
-
-    body {
-      background: #0d0d0d;
-      color: #fff;
-      text-align: center;
-      overflow-x: hidden;
-    }
-
-    header {
-      padding: 60px 0;
-      animation: fadeIn 1.5s ease-in-out;
-    }
-
-    h1 {
-      font-size: 3.5rem;
-      font-weight: 800;
-      background: linear-gradient(45deg, #00d9ff, #0084ff, #b300ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    p {
-      font-size: 1.3rem;
-      margin-top: 10px;
-      color: #cfcfcf;
-    }
-
-    .btn {
-      margin-top: 25px;
-      padding: 12px 30px;
-      background: #0084ff;
-      border-radius: 30px;
-      text-decoration: none;
-      color: white;
-      font-size: 1.2rem;
-      display: inline-block;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      transform: scale(1.1);
-      background: #00d9ff;
-    }
-
-    .section {
-      margin-top: 80px;
-      padding: 30px;
-    }
-
-    .card {
-      width: 70%;
-      margin: auto;
-      background: #141414;
-      padding: 30px;
-      border-radius: 15px;
-      font-size: 1.2rem;
-      border: 1px solid #222;
-      box-shadow: 0 0 25px rgba(0, 170, 255, 0.2);
-      animation: slideUp 1.3s ease;
-    }
-
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-
-    @keyframes slideUp {
-      from {transform: translateY(40px); opacity: 0;}
-      to {transform: translateY(0); opacity: 1;}
-    }
-
-    footer {
-      margin-top: 100px;
-      padding: 20px;
-      color: #444;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
 
-<header>
-  <h1>🚀 Hey! I'm Trijit</h1>
-  <p>11-year-old developer, gamer, and future billionaire 😎</p>
-  <a class="btn" href="#about">Know More</a>
-</header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
 
-<section id="about" class="section">
-  <div class="card">
-    <h2>About Me</h2><br>
-    <p>
-      I love coding, robots, AI, gaming, and creating awesome projects.
-      My dream is to build futuristic tech and change the world! 💡
-    </p>
-  </div>
+<section class="hero">
+  <h1>🚀 Hey, I'm <span id="typing"></span></h1>
+  <p class="subtitle">I am an 11-year-old coder, creator & future tech legend 😎</p>
+  <a class="btn" href="about.html">Explore More</a>
 </section>
 
-<footer>
-  Made with ❤️ by Trijit
-</footer>
+<footer>© 2025 Trijit. Built with 💙 & Imagination.</footer>
 
 </body>
 </html>
-
